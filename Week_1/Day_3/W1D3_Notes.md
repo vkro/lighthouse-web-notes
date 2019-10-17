@@ -22,7 +22,22 @@ Anything not in the above list is an Object. Together, the six primitive types, 
 - number literals: 5, 7.5
 - array literal [1, 2, 3]
 
-Objects have a literal syntax using braces
+Objects have a literal syntax using braces `{}`
+
+Object literal assigned to a variable:
+```javascript
+const emptyObject = {};
+```
+Object literal with a single key-value pair:
+```javascript
+const tinyObject = {size: 'Tiny'};
+```
+
+## Object Key Rules:
+
+1. Keys are always strings.
+2. Each key is unique (can only occur once in the object).
+3. Each key is associated with exactly one value. _Arrays and objects count as one value, even though they contain other values_
 
 ## Notes from Today's Lecture
 
