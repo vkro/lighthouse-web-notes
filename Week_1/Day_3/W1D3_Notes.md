@@ -68,4 +68,7 @@ for (let key in obj) {
 }
 ```
 
+>**UPDATE FROM MENTOR CODE REVIEW ON DAY 4!**  
+>Nobody uses for...in loops anymore! Unreliable, problems with prototypes. Use `Object.key` with `for...of` or use `forEach` instead.
+
 **Another thing to explore:** this 
