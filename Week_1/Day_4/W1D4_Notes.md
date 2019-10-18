@@ -2,10 +2,12 @@
 
 **Focus: Callback Functions**
 
-## What is a callback function?
+## Lecture Notes
+
+### What is a callback function?
 Function that gets passed to another function (to be invoked by that other function).
 
-## What is an arrow function?
+### What is an arrow function?
 
 It's just cleaner.
 ```javascript
@@ -28,3 +30,20 @@ You can use `const` for arrays and objects, it still lets you change the content
 
 >**Tip:**
 Use [pythontutor.com/javascript](http://pythontutor.com/javascript.html#mode=edit) - it'll walk you through your code step by step.
+
+## Notes from Today's Readings & Exercises
+
+**Something important about functions:**
+
+Functions in JavaScript are _first-class objects_.
+
+This means two things:
+- functions can be stored in variables and passed around;
+- functions can do everything that other objects can do (like having properties assigned to them)/
+
+
+**Higher-Order Functions**
+
+Higher-Order functions are any functions which _operate_ on other functions. Ie. functions which take in function (callbacks) as arguments, built-in functions like `forEach`, `filter`.
+
+Higher-Order functions are a major aspect of _Functional Programming_.
